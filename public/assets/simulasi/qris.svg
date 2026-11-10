@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+<title id="title">Simulasi nama penerima QRIS berbeda</title><desc id="desc">Papan Warung Sari dibandingkan dengan layar pembayaran yang menampilkan Toko Lain. Nama penerima berbeda, sehingga pembayaran perlu dibatalkan dan dikonfirmasi ke kasir.</desc>
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
+<rect width="600" height="360" fill="#142e35"/><rect width="600" height="360" fill="url(#grid)"/>
+<g font-family="Consolas,monospace" fill="#f4f4ef">
+<path d="M40 66h212v234H40z" fill="#e7f0e9"/>
+<path d="M40 66h212v48H40z" fill="#497780"/>
+<text x="146" y="97" text-anchor="middle" font-size="21">WARUNG SARI</text>
+<path d="M80 140h40v40H80zm92 0h40v40h-40zM80 232h40v40H80z" fill="#233f46"/>
+<path d="M90 150h20v20H90zm92 0h20v20h-20zM90 242h20v20H90z" fill="#e7f0e9"/>
+<path d="M138 144h14v14h-14zm-8 42h30v16h-30zm46 12h14v14h-14zm28 8h14v28h-14zm-58 22h16v16h-16zm30 24h28v16h-28z" fill="#233f46"/>
+<path d="M271 180h40m-12-12 12 12-12 12" fill="none" stroke="#7dd3fc" stroke-width="4"/>
+<path d="M338 52h226v266H338z" fill="#101e27" stroke="#6a9ca8" stroke-width="2"/>
+<text x="358" y="89" font-size="17" fill="#accbd4">KONFIRMASI BAYAR</text>
+<text x="358" y="137" font-size="17" fill="#accbd4">Nama penerima</text>
+<path d="M352 154h198v46H352z" fill="#3c351b" stroke="#ffd23f" stroke-width="2"/>
+<text x="366" y="184" font-size="22" fill="#ffd23f">TOKO LAIN</text>
+<text x="358" y="236" font-size="24">Rp25.000</text>
+<path d="M354 260h194v36H354z" fill="#7dd3fc"/>
+<text x="451" y="284" font-size="17" fill="#101e27" text-anchor="middle">BATALKAN</text>
+<text x="40" y="37" font-size="17" fill="#accbd4">SIMULASI · BUKAN QR PEMBAYARAN</text></g></svg>

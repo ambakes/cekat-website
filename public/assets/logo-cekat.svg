@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" color="#8CE0B2" role="img" aria-labelledby="title">
+<title id="title">CEKAT — burung hantu siaga</title>
+<path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 6 17 11a21 21 0 0 1 14 0L42 6v17c0 9-7 16-18 21C13 39 6 32 6 23V6Zm5 13c2-3 7-3 11 2v2c-2 6-12 6-11-4Zm26 0c-2-3-7-3-11 2v2c2 6 12 6 11-4ZM21 30h6l-3 5-3-5Z"/>
+<path class="logo-feather" fill="var(--logo-detail, #50AC83)" d="M24 36c8-4 13-8 18-13 0 9-7 16-18 21v-8Z"/>
+<g fill="currentColor"><circle cx="17" cy="22" r="2.1"/><circle cx="31" cy="22" r="2.1"/></g>
+<g fill="var(--logo-glint, #F0FFF7)"><circle cx="17.6" cy="21.4" r=".65"/><circle cx="31.6" cy="21.4" r=".65"/></g>
+</svg>

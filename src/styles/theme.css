@@ -1,0 +1,76 @@
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 2px solid var(--line-strong);
+  background: var(--panel);
+  color: var(--text);
+}
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.theme-toggle .icon {
+  width: 20px;
+  height: 20px;
+}
+.theme-moon, html[data-theme="light"] .theme-sun {
+  display: none;
+}
+html[data-theme="light"] .theme-moon {
+  display: block;
+}
+html[data-theme="light"] body {
+  background-image: repeating-linear-gradient(0deg, transparent 0 31px, #19233806 31px 32px), repeating-linear-gradient(90deg, transparent 0 31px, #19233806 31px 32px);
+}
+html[data-theme="light"] :focus-visible {
+  outline-color: var(--text);
+}
+html[data-theme="light"] a {
+  color: var(--accent);
+}
+html[data-theme="light"] .btn {
+  color: var(--ink);
+}
+html[data-theme="light"] .btn-outline {
+  color: var(--text);
+}
+html[data-theme="light"] .brand,
+html[data-theme="light"] .text-link,
+html[data-theme="light"] .pattern-card {
+  color: var(--text);
+}
+html[data-theme="light"] .hero,
+html[data-theme="light"] .book-hero {
+  background: #edf4fc;
+}
+html[data-theme="light"] .hero-sky {
+  background-image: url("/assets/hero-sky-light.svg");
+  background-color: #edf4fc;
+}
+html[data-theme="light"] .hero-lede,
+html[data-theme="light"] .book-hero .lede {
+  text-shadow: none;
+}
+html[data-theme="light"] .hero h1 span,
+html[data-theme="light"] .book-hero h1 span,
+html[data-theme="light"] .card-link {
+  color: var(--accent);
+}
+html[data-theme="light"] .result.caution .result-stamp {
+  color: var(--caution);
+}
+html[data-theme="light"] .emergency .btn {
+  background: var(--ink);
+  color: var(--primary);
+}
+
+html[data-theme="light"].a11y-contrast .footer-links a,
+html[data-theme="light"].a11y-contrast .footer-note,
+html[data-theme="light"].a11y-contrast .book-footnote {
+  color: var(--text);
+}

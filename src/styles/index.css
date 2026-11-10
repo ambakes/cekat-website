@@ -1,0 +1,12 @@
+/* Urutan cascade eksplisit; berkas ini dapat diimpor saat migrasi React. */
+@import url("./tokens.css");
+@import url("./base.css");
+@import url("./buttons.css");
+@import url("./layout.css");
+@import url("./hero.css");
+@import url("./checker.css");
+@import url("./home.css");
+@import url("./education.css");
+@import url("./accessibility.css");
+@import url("./theme.css");
+@import url("./responsive.css");

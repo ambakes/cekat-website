@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+<title id="title">Simulasi tautan phishing</title><desc id="desc">Jendela situs palsu dengan alamat klaim-paket.invalid dan permintaan kode akses. Sorotan kuning mengingatkan untuk memeriksa domain.</desc>
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
+<rect width="600" height="360" fill="#152438"/><rect width="600" height="360" fill="url(#grid)"/>
+<g font-family="Consolas,monospace" fill="#f4f4ef">
+<path d="M48 72h512v240H48z" fill="#080e19"/>
+<path d="M40 64h512v240H40z" fill="#1c293d" stroke="#6f91b4" stroke-width="2"/>
+<path d="M40 64h512v42H40z" fill="#31435c"/>
+<path d="M58 80h10v10H58zm20 0h10v10H78zm20 0h10v10H98z" fill="#9bb6d6"/>
+<text x="530" y="90" font-size="20" text-anchor="end">×</text>
+<path d="M60 122h472v42H60z" fill="#101824" stroke="#ffd23f" stroke-width="2"/>
+<text x="76" y="149" font-size="20" fill="#ffd23f">klaim-paket.invalid</text>
+<text x="68" y="202" font-size="23" font-weight="bold">Paket kamu tertahan!</text>
+<text x="68" y="234" font-size="18" fill="#b7c6db">Masukkan kode akses untuk lanjut.</text>
+<path d="M68 254h224v30H68z" fill="#101824"/>
+<path d="M312 254h212v30H312z" fill="#ffd23f"/>
+<path d="M80 265h8v8h-8zm20 0h8v8h-8zm20 0h8v8h-8zm20 0h8v8h-8z" fill="#7289a6"/>
+<text x="418" y="276" font-size="16" fill="#101018" text-anchor="middle">VERIFIKASI</text>
+<text x="40" y="37" font-size="17" fill="#9bb6d6">SIMULASI · SITUS REKAAN</text></g></svg>

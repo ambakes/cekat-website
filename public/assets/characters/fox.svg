@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="160" viewBox="0 0 224 160" fill="none" shape-rendering="crispEdges">
+<title>Rubah kecil membaca buku</title>
+<path d="M20 144h184v4H20z" fill="#658875" opacity=".3"/>
+<path d="M116 120h20V96h12V80h24v8h12v32h-8v16h-24v8h-44z" fill="#d37b47"/>
+<path d="M160 80h12v8h12v24h-20V96h-4z" fill="#f3dfb4"/>
+<path d="M60 84h56v16h12v36H56v-36h4z" fill="#c36c40"/>
+<path d="M76 94h28v42H76z" fill="#f3dfb4"/>
+<path d="M44 24h12v8h12v12h40V32h12v-8h12v48h-8v20h-16v8H68v-8H52V72h-8z" fill="#e19a5a"/>
+<path d="M52 32h4v8h8v16H52zm68 0h4v24h-12V40h8z" fill="#704a40"/>
+<path d="M52 64h20v12h40V64h12v16h-8v12H68v-8H52z" fill="#f6e4bd"/>
+<path d="M64 60h8v12h-8zm40 0h8v12h-8z" fill="#23383d"/>
+<path d="M64 60h4v4h-4zm40 0h4v4h-4z" fill="#fff8e9"/>
+<path d="M84 76h12v8H84z" fill="#23383d"/>
+<path d="M44 104h36l12 8 12-8h36v36h-36l-12 8-12-8H44z" fill="#354f65"/>
+<path d="M48 108h32l8 8v24l-8-4H48zm88 0h-32l-8 8v24l8-4h32z" fill="#a9d2ce"/>
+<path d="M56 116h20v4H56zm0 8h20v4H56zm52-8h20v4h-20zm0 8h20v4h-20z" fill="#659795"/>
+<path d="M40 104h12v16H40zm92 0h12v16h-12z" fill="#d68950"/>
+<path d="M178 128h4v16h-4zm-8 4h4v8h-4zm16-8h4v16h-4z" fill="#5c8d70"/>
+</svg>

@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Silkscreen";
+  src: url("/assets/fonts/silkscreen-400-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Silkscreen";
+  src: url("/assets/fonts/silkscreen-700-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* ---------- Reset & dasar ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 20px);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image:
+    repeating-linear-gradient(0deg, transparent 0 31px, rgba(255, 255, 255, 0.018) 31px 32px),
+    repeating-linear-gradient(90deg, transparent 0 31px, rgba(255, 255, 255, 0.018) 31px 32px);
+  color: var(--text);
+  font: 400 17px/1.65 var(--font-ui);
+  letter-spacing: 0.002em;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, p, ul, ol, figure, blockquote {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+button, input, textarea, select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+::selection {
+  background: var(--primary);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -80px;
+  z-index: 200;
+  padding: 10px 14px;
+  border: 2px solid var(--ink);
+  background: var(--primary);
+  color: var(--ink);
+  font: 700 var(--text-xs)/1.4 var(--font-ui);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 12px;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Sprite ikon dan penyalinan teks berada di luar alur visual. */
+.svg-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.clipboard-fallback {
+  position: fixed;
+  opacity: 0;
+}

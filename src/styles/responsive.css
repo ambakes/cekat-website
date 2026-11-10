@@ -1,0 +1,265 @@
+/* ==========================================================================
+   Responsif
+   ========================================================================== */
+
+@media (max-width: 1200px) {
+  .a11y-fab {
+    width: 54px;
+    height: 54px;
+    min-height: 54px;
+    padding: 0;
+  }
+  .a11y-fab-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 960px) {
+  .pattern-grid {
+    grid-template-columns: 1fr;
+  }
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
+  .practice-copy > p {
+    max-width: 56ch;
+  }
+}
+
+@media (max-width: 900px) {
+  .book-layout {
+    grid-template-columns: 1fr;
+  }
+  .book-index {
+    position: static;
+    padding: 16px;
+    border: 2px solid var(--line);
+    border-left: 2px solid var(--line);
+  }
+  .book-index nav {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+  .book-index nav a {
+    flex: 0 0 auto;
+    padding: 7px 8px;
+    border: 1px solid var(--line);
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .book-index nav a span {
+    font-size: var(--text-xs);
+  }
+}
+
+@media (max-width: 820px) {
+  .menu-btn {
+    display: inline-flex;
+  }
+  .main-nav {
+    position: fixed;
+    inset: var(--header-h) 0 0;
+    z-index: 75;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    margin: 0;
+    padding: 24px var(--gutter) 120px;
+    overflow-y: auto;
+    border-top: 2px solid var(--line);
+    background: var(--bg);
+  }
+  .main-nav.open {
+    display: flex;
+  }
+  .main-nav a {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+    color: var(--text);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .main-nav a[aria-current="page"] {
+    color: var(--accent);
+  }
+
+  .header-actions {
+    margin-left: auto;
+  }
+  .header-actions .btn {
+    padding: 9px 13px;
+    font-size: var(--text-xs);
+  }
+}
+
+@media (max-width: 720px) {
+  .a11y {
+    left: 12px;
+    right: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    align-items: stretch;
+  }
+  .a11y-fab {
+    align-self: flex-end;
+    width: 54px;
+    height: 54px;
+    min-height: 54px;
+    padding: 0;
+  }
+  .a11y-fab-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .a11y-panel {
+    width: 100%;
+    max-height: min(70vh, 520px);
+  }
+}
+
+@media (max-width: 640px) {
+  .header-inner {
+    gap: 12px;
+  }
+  .brand-mark {
+    width: 30px;
+    height: 30px;
+  }
+  .brand-name {
+    font-size: 18px;
+  }
+
+  .hero, .book-hero {
+    padding-bottom: 148px;
+  }
+  .hero h1, .book-hero h1 {
+    font-size: clamp(28px, 6.8vw, 42px);
+    overflow-wrap: anywhere;
+  }
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-actions .btn {
+    width: 100%;
+  }
+  .hero-actions .text-link {
+    justify-content: center;
+  }
+
+  .tool-footer {
+    align-items: stretch;
+  }
+  .tool-footer .btn {
+    width: 100%;
+  }
+
+  .checker-ecg {
+    display: none;
+  }
+  .checker-ecg .ecg-trace {
+    animation: none;
+  }
+  .tool-topbar {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .scenario-actions {
+    align-items: stretch;
+  }
+  .scenario-actions .btn {
+    width: 100%;
+  }
+
+  .emergency-inner {
+    align-items: stretch;
+  }
+  .emergency .btn {
+    width: 100%;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+  .footer-note {
+    grid-column: auto;
+  }
+
+  .book-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .book-hero-actions .btn {
+    width: 100%;
+  }
+  .book-hero-actions .text-link {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-actions .btn {
+    display: none;
+  }
+  .tool-samples span {
+    display: none;
+  }
+}
+
+/* ---------- Cetak ---------- */
+
+@media print {
+  .site-header,
+  .hero-actions,
+  .tool-card,
+  .menu-btn,
+  .site-footer,
+  .book-jump,
+  .book-resume,
+  .book-index,
+  .a11y {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #111;
+  }
+  .hero,
+  .book-hero {
+    padding: 0 0 24px;
+  }
+  .hero-sky {
+    display: none;
+  }
+  .section {
+    padding-block: 24px;
+  }
+  a {
+    color: #111;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

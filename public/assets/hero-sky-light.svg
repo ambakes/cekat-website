@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" fill="none" shape-rendering="crispEdges" aria-hidden="true">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e9f5fb" /><stop offset=".62" stop-color="#d9eef5" /><stop offset="1" stop-color="#f9e6bd" /></linearGradient></defs>
+<path fill="url(#sky)" d="M0 0h1600v800H0z" />
+<path d="M1328 108h48v8h16v16h8v48h-8v16h-16v8h-48v-8h-16v-16h-8v-48h8v-16h16z" fill="#fff5d5" />
+<g transform="translate(80 185) scale(1.4)" opacity="0.8">
+<path d="M0 24h24V12h32V0h48v12h32v12h32v16H0z" fill="#ffffff" />
+</g>
+<g transform="translate(1260 280) scale(1)" opacity="0.8">
+<path d="M0 24h24V12h32V0h48v12h32v12h32v16H0z" fill="#ffffff" />
+</g>
+<g transform="translate(280 340) scale(0.7)" opacity="0.8">
+<path d="M0 24h24V12h32V0h48v12h32v12h32v16H0z" fill="#ffffff" />
+</g>
+<path d="M0 500h40v-24h40v-32h40v-28h40v-32h32v-32h24v32h32v32h32v24h32v32h40v32h40v28h48v28h56v24h80v24h96v-16h80v-24h64v-24h48v-32h40v-24h32v-32h32v-24h24v-32h24v-32h24v-32h24v32h24v24h32v32h32v24h32v32h40v24h48v32h48v32h56v-24h40v-32h40v-24h32v-32h32v32h32v32h40v24h40v200H0z" fill="#91b3ba" />
+<path d="M216 352v32h32v32h32v24h32v32h40v32h40v28h48v28h56v24h-88v-24h-48v-32h-48v-32h-32v-40h-24v-48h-24v-32h-16v-24z" fill="#799fae" />
+<path d="M0 568h64v-24h64v-24h56v-24h48v24h48v24h64v24h72v24h80v24h88v24h96v16h160v-16h96v-24h80v-24h64v-24h56v-24h48v-24h40v24h48v24h56v24h64v24h72v-24h56v-24h64v-24h64v24h48v200H0z" fill="#628d91" />
+<path d="M0 632h80v-16h88v-16h80v16h88v24h104v24h104v16h144v16h216v-16h128v-24h96v-24h96v-24h80v16h104v16h96v200H0z" fill="#3b7174" />
+<path d="M796 672h32v24h24v16h40v16h64v16h64v16h72v40H632v-24h104v-16h96v-16h-32v-16h-24v-16h20z" fill="#b2d7d4" />
+<rect x="802" y="698" width="34" height="3" fill="#e5f1db" opacity=".6" />
+<rect x="820" y="730" width="50" height="3" fill="#e5f1db" opacity=".6" />
+<rect x="844" y="750" width="82" height="3" fill="#e5f1db" opacity=".6" />
+<rect x="700" y="782" width="80" height="3" fill="#e5f1db" opacity=".6" />
+<rect x="930" y="780" width="88" height="3" fill="#e5f1db" opacity=".6" />
+</svg>

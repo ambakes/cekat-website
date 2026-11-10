@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+<title id="title">Simulasi pesan meminta OTP</title><desc id="desc">Percakapan rekaan: pengirim mengaku petugas dan meminta kode OTP. Balasan aman menolak membagikan kode.</desc>
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
+<rect width="600" height="360" fill="#261d36"/><rect width="600" height="360" fill="url(#grid)"/>
+<g font-family="Consolas,monospace" fill="#f4f4ef">
+<path d="M102 34h412v300H102z" fill="#100e1b"/>
+<path d="M94 26h412v300H94z" fill="#211b30" stroke="#9d81c0" stroke-width="2"/>
+<path d="M94 26h412v52H94z" fill="#3b2e50"/>
+<path d="M112 42h20v20h-20z" fill="#c6acff"/>
+<text x="148" y="59" font-size="20">Nomor tak dikenal</text>
+<path d="M116 100h346v100H132v-12h-16z" fill="#3b2e50"/>
+<text x="134" y="129" font-size="19">Saya petugas layanan.</text>
+<text x="134" y="158" font-size="19">Kirim kode OTP kamu,</text>
+<text x="134" y="185" font-size="19" fill="#ffd23f">sekarang juga!</text>
+<path d="M162 222h320v64H162z" fill="#c6acff"/>
+<text x="180" y="250" font-size="18" fill="#211b30">Kode ini rahasia.</text>
+<text x="180" y="275" font-size="18" fill="#211b30">Saya tidak membagikannya.</text>
+<text x="300" y="311" font-size="15" text-anchor="middle" fill="#b5a3cc">SIMULASI · PESAN REKAAN</text></g></svg>
